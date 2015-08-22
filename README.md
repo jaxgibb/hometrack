@@ -7,6 +7,8 @@ I made a few assumptions & executive decisions with the implementation:
 * if an address field is missing, then it is simply not included in the result - as opposed, the address is invalid.
 * only the "interesting" fields are concatenated - I dropped off lat & long.
 
+I also note that the example response in github did not match the request. I'm not sure if this was intentional or simply an update to the request not reflected.
+
 This is currently deployed as 
 
 https://still-lowlands-4973.herokuapp.com/
